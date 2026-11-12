@@ -25,3 +25,9 @@
 - man command - manual, q to exit (справка, выход q)
 - Tab - autocomplete names (автодополнение)
 - Ctrl+C - stop command (остановить)
+
+## New (день 6)
+- ls -la - показать скрытые файлы (с точкой) и права
+- file имя - показать тип файла (text или data)
+- * - все файлы в папке (file ./inhere/*)
+- lsof -i -P -n - сетевые соединения на моём Mac
