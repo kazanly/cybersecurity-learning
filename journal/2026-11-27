@@ -1,0 +1,11 @@
+# Day 19 - 2026-11-27
+
+## What I learned
+- Bandit 26: escape restricted shell (vi :set shell / :shell), then setuid ./bandit27-do
+- cat /etc/passwd shows each user's login shell (last field)
+- git clone over ssh; from Mac use the real hostname, not localhost
+- A repo can contain secrets in plain files
+- git log: list of commits (history)
+- git show COMMIT: what changed in a commit (+ added, - removed)
+- Removing a password in a new commit does NOT remove it: it stays in history
+- Real fix: clean history AND rotate the password
